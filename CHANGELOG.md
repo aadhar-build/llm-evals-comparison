@@ -2,6 +2,21 @@
 
 Tracks material changes to framework profiles as the eval ecosystem evolves.
 
+## 2026-05-22 — v0.5.0 (EU AI Act module)
+
+**Added**
+- `eu-ai-act/README.md` — enforcement timeline, Annex III categories, four articles that create eval obligations (Art. 9/10/13/15/17), audit trail requirements per framework
+- `eu-ai-act/framework-mapping.md` — master mapping table (6 frameworks × 7 Act requirements); article-by-article breakdown with practical guidance; red-flag matrix of what each framework cannot provide
+- `eu-ai-act/high-risk-checklist.md` — 5-phase pre-deployment checklist; bias testing procedures; inspect_ai run templates; Annex IV documentation package spec; recommended stacks for Tier 1/2/3 risk systems
+
+**Key content shipped:**
+- "No single framework is sufficient for Annex III compliance" — minimum stack is inspect_ai + Langfuse
+- Full Article 40 (harmonised standards) analysis — inspect_ai is the only framework whose maintainer is involved in developing those standards
+- Red-flag matrix: what each framework *cannot* provide for high-risk AI — the compliance gaps most teams don't know about
+- Concrete Annex IV documentation package template — what files to archive, alongside which artifacts
+
+---
+
 ## 2026-05-22 — v0.4.0 (Head-to-head comparisons)
 
 **Added**
