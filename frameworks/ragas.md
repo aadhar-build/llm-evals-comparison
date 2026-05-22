@@ -158,3 +158,7 @@ For EU high-risk AI systems using RAG, RAGAS should be part of a broader stack t
 - **Last verified:** 2026-05-20  
 - **Migration note:** v0.3 → v0.4 introduced breaking changes to the metric API. The legacy `LLMContextPrecisionWithReference` / `LLMContextPrecisionWithoutReference` classes are deprecated in v0.4 and scheduled for removal in v1.0. Migrate to the collections-based API (`from ragas.metrics.collections import ContextPrecision`).
 - **NonLLM metrics:** `NonLLMContextPrecisionWithReference` is **not deprecated** — only the LLM-based legacy API is being phased out.
+
+---
+
+→ [RAGAS vs DeepEval](../comparisons/ragas-vs-deepeval.md) · [Full matrix](../comparisons/full-matrix.md) · [By Use Case: RAG](../decision-guide/by-use-case.md#rag-quality-measurement) · [Back to Framework Profiles](./)

@@ -170,3 +170,7 @@ promptfoo is significantly cheaper than DeepEval or RAGAS at scale because many 
 - **Current stable:** v0.121.x  
 - **Last verified:** 2026-05-20  
 - **Acquisition note:** OpenAI acquired promptfoo in March 2026. The repo remains MIT-licensed and community-maintained. Watch for changes to the commercial offering post-acquisition, but the core CLI is unaffected.
+
+---
+
+→ [promptfoo vs inspect_ai](../comparisons/promptfoo-vs-inspect-ai.md) · [Full matrix](../comparisons/full-matrix.md) · [By Use Case: Red teaming](../decision-guide/by-use-case.md#red-teaming--adversarial-testing) · [Back to Framework Profiles](./)

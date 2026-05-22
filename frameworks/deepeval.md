@@ -182,3 +182,7 @@ For EU high-risk AI systems, DeepEval covers pre-production quality gates well. 
 - **Current stable:** v1.x  
 - **Last verified:** 2026-05-20  
 - **Notable recent addition:** Confident AI cloud dashboard for test run history, regression tracking, and team collaboration (commercial, not required for OSS use)
+
+---
+
+→ [RAGAS vs DeepEval](../comparisons/ragas-vs-deepeval.md) · [Full matrix](../comparisons/full-matrix.md) · [By Use Case: CI/CD gates](../decision-guide/by-use-case.md#cicd-quality-gates) · [Back to Framework Profiles](./)

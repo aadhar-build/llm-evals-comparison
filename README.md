@@ -26,8 +26,13 @@ This is not a benchmarking paper or a feature matrix. It's a **selection guide**
 | EU AI Act compliance, safety evaluation, government context | [inspect_ai](./frameworks/inspect-ai.md) |
 | Contributing evals to a shared benchmark registry | [OpenAI Evals](./frameworks/openai-evals.md) |
 | Need to pick between RAGAS and DeepEval | [RAGAS vs DeepEval](./comparisons/ragas-vs-deepeval.md) |
+| Need to pick between promptfoo and inspect_ai | [promptfoo vs inspect_ai](./comparisons/promptfoo-vs-inspect-ai.md) |
+| Want all 6 frameworks side-by-side | [Full matrix](./comparisons/full-matrix.md) |
 | 3-person startup, where do I even start? | [By Team Type](./decision-guide/by-team-type.md) |
 | We need an eval stack, not just one tool | [By Lifecycle Stage](./decision-guide/by-lifecycle-stage.md) |
+| Building a system subject to EU AI Act | [EU AI Act module](./eu-ai-act/) |
+| Need to choose an eval framework for my org | [Eval Framework RFP](./templates/eval-framework-rfp.md) |
+| Shipping an AI feature, need a pre-launch eval plan | [Pre-Launch Eval Plan](./templates/pre-launch-eval-plan.md) |
 
 ---
 
@@ -67,15 +72,21 @@ Three structured guides for choosing:
 → [comparisons/](./comparisons/)
 
 ### EU AI Act Module
-Which frameworks satisfy which Act requirements. Includes an eval checklist for Annex III high-risk AI systems.
+Which frameworks satisfy which Act requirements. Maps Articles 9, 10, 13, 15, 17, Annex IV to concrete framework choices. Includes a 5-phase pre-deployment checklist for Annex III high-risk AI systems.
 
-→ [eu-ai-act/](./eu-ai-act/) *(coming in Session 5)*
+- [EU AI Act overview](./eu-ai-act/README.md) — enforcement timeline, Annex III categories, articles that create eval obligations
+- [Framework → Article mapping](./eu-ai-act/framework-mapping.md) — master mapping table + red-flag matrix of compliance gaps
+- [High-risk AI checklist](./eu-ai-act/high-risk-checklist.md) — 5-phase pre-deployment checklist, recommended stacks by risk tier
+
+→ [eu-ai-act/](./eu-ai-act/)
 
 ### Templates
-- [Eval Framework RFP](./templates/eval-framework-rfp.md) — scorecard for evaluating eval frameworks for your org
-- [Pre-Launch Eval Plan](./templates/pre-launch-eval-plan.md) — eval strategy template before shipping an AI feature
+Working documents you can copy and use directly.
 
-→ [templates/](./templates/) *(coming in Session 6)*
+- [Eval Framework RFP](./templates/eval-framework-rfp.md) — scoring template for choosing eval frameworks for your org; weighted by team type
+- [Pre-Launch Eval Plan](./templates/pre-launch-eval-plan.md) — defines metrics, baselines, thresholds, and sign-off gate before shipping an AI feature
+
+→ [templates/](./templates/)
 
 ---
 

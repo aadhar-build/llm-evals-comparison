@@ -2,6 +2,21 @@
 
 Tracks material changes to framework profiles as the eval ecosystem evolves.
 
+## 2026-05-22 — v1.0.0 (Templates, cross-linking, launch-ready)
+
+**Added**
+- `templates/eval-framework-rfp.md` — weighted scoring template (8 criteria × 3 team-type weight sets), pilot protocol, dealbreaker checklist, decision output format
+- `templates/pre-launch-eval-plan.md` — 8-section working document: feature scope, metrics, dataset, framework selection, baseline, thresholds, production monitoring, sign-off gate; Annex IV archival note
+- `templates/README.md` — templates index
+
+**Changed**
+- `README.md` — quick-pick table expanded to 14 rows covering all content; EU AI Act and Templates sections updated (removed "coming soon" caveats); full content listing for all five modules
+- Framework profiles — cross-links added to RAGAS, DeepEval, promptfoo, inspect_ai pointing to relevant comparison pages and decision guide use-case anchors
+
+**Repo is now complete.** All 7 planned sessions delivered.
+
+---
+
 ## 2026-05-22 — v0.5.0 (EU AI Act module)
 
 **Added**

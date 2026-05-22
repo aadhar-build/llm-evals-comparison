@@ -196,3 +196,7 @@ This matters for audit purposes — if you're using evals as evidence in a confo
 - **Status:** Active, no semver — pin to commit  
 - **Last verified:** 2026-05-20  
 - **inspect_evals:** Growing rapidly; new evals added regularly. Star the repo and watch releases to stay current with new published safety benchmarks.
+
+---
+
+→ [promptfoo vs inspect_ai](../comparisons/promptfoo-vs-inspect-ai.md) · [EU AI Act module](../eu-ai-act/) · [Full matrix](../comparisons/full-matrix.md) · [Back to Framework Profiles](./)
