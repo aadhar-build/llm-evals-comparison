@@ -1,3 +1,9 @@
+---
+title: By Use Case
+parent: Decision Guide
+nav_order: 1
+---
+
 # By Use Case
 
 > Match your specific use case to the right framework. Each section below names the primary recommendation, the runner-up, and when you'd pick each one.

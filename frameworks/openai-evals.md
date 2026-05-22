@@ -1,3 +1,9 @@
+---
+title: OpenAI Evals
+parent: Framework Profiles
+nav_order: 6
+---
+
 # OpenAI Evals
 
 > A YAML-first benchmark registry where you contribute domain-specific evaluations that become part of a shared, publicly reusable test suite — no code required for most contributions.

@@ -1,0 +1,52 @@
+title: LLM Evals Comparison
+description: A PM-authored, vendor-neutral decision guide for choosing between LLM evaluation frameworks — RAGAS, DeepEval, promptfoo, Langfuse, inspect_ai, OpenAI Evals.
+url: https://aadhar-build.github.io
+baseurl: /llm-evals-comparison
+
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+
+color_scheme: dark
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# Navigation
+nav_sort: order
+
+# Aux links (top right of nav)
+aux_links:
+  "GitHub":
+    - "https://github.com/aadhar-build/llm-evals-comparison"
+
+aux_links_new_tab: true
+
+# Footer
+footer_content: 'Maintained by <a href="https://github.com/aadhar-build">@aadhar-build</a>. Not affiliated with any framework vendor.'
+
+# Back to top
+back_to_top: true
+back_to_top_text: "↑ Back to top"
+
+# Callouts
+callouts:
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: yellow
+  highlight:
+    title: EU AI Act
+    color: purple
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme

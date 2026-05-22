@@ -1,3 +1,10 @@
+---
+title: Framework Profiles
+nav_order: 2
+has_children: true
+permalink: /frameworks/
+---
+
 # Framework Profiles
 
 Each framework profile follows the same structure so you can compare like-for-like.

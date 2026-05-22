@@ -1,3 +1,9 @@
+---
+title: Langfuse
+parent: Framework Profiles
+nav_order: 4
+---
+
 # Langfuse
 
 > Production observability for LLM applications — traces every inference, scores outputs, and gives you the audit trail that pre-production testing tools can't provide.

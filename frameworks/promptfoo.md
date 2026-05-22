@@ -1,3 +1,9 @@
+---
+title: promptfoo
+parent: Framework Profiles
+nav_order: 3
+---
+
 # promptfoo
 
 > The most capable open-source tool for red teaming LLMs and running systematic adversarial tests — finds failure modes before your users do.

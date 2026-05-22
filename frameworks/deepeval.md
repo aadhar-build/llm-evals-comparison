@@ -1,3 +1,9 @@
+---
+title: DeepEval
+parent: Framework Profiles
+nav_order: 2
+---
+
 # DeepEval
 
 > LLM unit testing that works like pytest — write test cases, set pass/fail thresholds, run in CI/CD. The closest thing to test-driven development for LLM applications.

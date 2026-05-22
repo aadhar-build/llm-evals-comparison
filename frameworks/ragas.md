@@ -1,3 +1,9 @@
+---
+title: RAGAS
+parent: Framework Profiles
+nav_order: 1
+---
+
 # RAGAS
 
 > The go-to framework for evaluating RAG pipelines — measures whether your retrieval and generation steps are actually working, not just whether the output sounds plausible.

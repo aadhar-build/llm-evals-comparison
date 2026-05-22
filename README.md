@@ -1,3 +1,10 @@
+---
+title: Home
+nav_order: 1
+description: "A PM-authored, vendor-neutral decision guide for choosing between RAGAS, DeepEval, promptfoo, Langfuse, inspect_ai, and OpenAI Evals."
+permalink: /
+---
+
 # LLM Evals Comparison
 
 > A PM-authored, vendor-neutral decision guide for choosing between LLM evaluation frameworks.

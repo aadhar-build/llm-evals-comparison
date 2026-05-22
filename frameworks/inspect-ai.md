@@ -1,3 +1,9 @@
+---
+title: inspect_ai
+parent: Framework Profiles
+nav_order: 5
+---
+
 # inspect_ai
 
 > The UK government's AI Safety Institute evaluation framework — used by Anthropic, DeepMind, and Google for safety evaluations. The only framework in this guide that carries institutional authority for EU AI Act conformity assessment.

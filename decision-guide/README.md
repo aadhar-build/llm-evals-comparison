@@ -1,3 +1,10 @@
+---
+title: Decision Guide
+nav_order: 3
+has_children: true
+permalink: /decision-guide/
+---
+
 # Decision Guide
 
 > Three structured guides for answering "which eval framework(s) should we use?" Skip what's not relevant to your situation.

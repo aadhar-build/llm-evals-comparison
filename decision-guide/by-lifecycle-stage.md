@@ -1,3 +1,9 @@
+---
+title: By Lifecycle Stage
+parent: Decision Guide
+nav_order: 3
+---
+
 # By Lifecycle Stage
 
 > The key insight most eval guides miss: **you don't pick one framework**. You need different tools at different stages of development. This guide maps the right framework(s) to each stage.

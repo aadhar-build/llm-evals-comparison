@@ -1,3 +1,9 @@
+---
+title: By Team Type
+parent: Decision Guide
+nav_order: 2
+---
+
 # By Team Type
 
 > Framework choice is as much about team context as technical requirements. A 3-person startup and a regulated enterprise asking "which LLM eval framework?" have almost nothing in common. This guide cuts by team type.
