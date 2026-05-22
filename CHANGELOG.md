@@ -2,6 +2,21 @@
 
 Tracks material changes to framework profiles as the eval ecosystem evolves.
 
+## 2026-05-22 — v0.3.0 (Decision guides)
+
+**Added**
+- `decision-guide/by-lifecycle-stage.md` — maps framework choice to dev → pre-production → production → compliance stages; recommended stacks for startup, enterprise, regulated EU
+- `decision-guide/by-team-type.md` — team-context guides for 3-person RAG startup, enterprise ML platform, regulated EU company, research/safety team
+- `decision-guide/by-use-case.md` — 9 use cases with primary recommendation, runner-up, and when to pick each
+- `decision-guide/README.md` — 5-minute decision framework and guide index
+
+**Key content shipped:**
+- "Most teams need a stack, not a single framework" — lifecycle stage mapping makes this concrete
+- Recommended stacks by context: minimum viable eval, full stack (EU market), regulated enterprise
+- Quick diagnostic: 5 questions to determine what stage and what frameworks you need
+
+---
+
 ## 2026-05-20 — v0.2.0 (Complete framework coverage)
 
 **Added**
