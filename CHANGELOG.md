@@ -2,6 +2,21 @@
 
 Tracks material changes to framework profiles as the eval ecosystem evolves.
 
+## 2026-05-22 — v0.4.0 (Head-to-head comparisons)
+
+**Added**
+- `comparisons/ragas-vs-deepeval.md` — deep comparison: retrieval metrics, CI/CD integration, cost, when to use both together; includes "what RAGAS does that DeepEval doesn't" and vice versa
+- `comparisons/promptfoo-vs-inspect-ai.md` — developer speed vs audit-grade output; EU AI Act decision point; when to use both
+- `comparisons/full-matrix.md` — all 6 frameworks × 10 criteria; dimension deep-dives; recommended stacks; "what's missing from all of them"
+- `comparisons/README.md` — index page
+
+**Key content shipped:**
+- "RAGAS vs DeepEval are not competitors — most RAG teams use both" structured clearly with concrete integration pattern
+- EU AI Act decision point for promptfoo vs inspect_ai: `We ran AgentHarm via inspect_ai` carries regulatory weight that `We ran promptfoo` does not
+- Full matrix includes "what no single framework covers" section (business metrics, multilingual depth, fine-grained attribution)
+
+---
+
 ## 2026-05-22 — v0.3.0 (Decision guides)
 
 **Added**
