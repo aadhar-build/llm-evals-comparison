@@ -103,4 +103,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md). The most useful contributions are fram
 
 ---
 
-*Maintained by [@aadhar-build](https://github.com/aadhar-build). Not affiliated with any framework vendor.*
+*Maintained by [@aadhar-build](https://github.com/aadhar-build), who writes about evals and AI product work at [aadhar.build](https://aadhar.build). Not affiliated with any framework vendor.*
