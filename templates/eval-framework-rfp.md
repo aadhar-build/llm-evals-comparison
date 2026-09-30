@@ -4,15 +4,15 @@ parent: Templates
 nav_order: 1
 ---
 
-# Eval Framework Selection Scorecard
+# Eval framework selection scorecard
 
 > A structured template for evaluating which LLM eval framework(s) to adopt. Fill this in before making a final recommendation to your team or leadership.
 
-Copy this template. Score each framework you're evaluating. The weights are pre-set for three team types — adjust to match your context.
+Copy this template and score each framework you are considering. The weights are preset for three team types. Adjust them to match your context.
 
 ---
 
-## Step 1 — Define Your Context
+## Step 1: define your context
 
 Fill these in first. They determine which weights to use.
 
@@ -20,32 +20,31 @@ Fill these in first. They determine which weights to use.
 |---|---|
 | **Team type** | ☐ Startup / ☐ Growth-stage / ☐ Regulated enterprise |
 | **Primary use case** | ☐ RAG / ☐ Conversational / ☐ Red teaming / ☐ Production monitoring / ☐ Safety/compliance |
-| **EU AI Act scope?** | ☐ Yes — Annex III high-risk / ☐ Possibly / ☐ No |
+| **EU AI Act scope?** | ☐ Yes, Annex III high-risk / ☐ Possibly / ☐ No |
 | **Python team?** | ☐ Yes / ☐ Mixed / ☐ No (YAML preferred) |
-| **CI/CD gate needed?** | ☐ Yes — on every PR / ☐ Yes — on releases only / ☐ No |
+| **CI/CD gate needed?** | ☐ Yes, on every PR / ☐ Yes, on releases only / ☐ No |
 | **Data residency requirement?** | ☐ EU only / ☐ Self-host required / ☐ No constraint |
 | **Who will maintain evals?** | ☐ Engineering / ☐ ML team / ☐ PM / ☐ Data team |
 
 ---
 
-## Step 2 — Score Each Framework
+## Step 2: score each framework
 
-Rate each criterion 1–5 for each framework you're evaluating.  
-Then multiply by the weight column that matches your team type.
+Rate each criterion from 1 to 5 for each framework, then multiply by the weight column that matches your team type.
 
-### Scoring Key
+### Scoring key
 
 | Score | Meaning |
 |---|---|
-| 5 | Excellent — best-in-class for this criterion |
-| 4 | Good — strong coverage, minor gaps |
-| 3 | Adequate — meets minimum needs |
-| 2 | Weak — requires significant workarounds |
-| 1 | Poor — does not address this criterion |
+| 5 | Excellent. Best in class for this criterion |
+| 4 | Good. Strong coverage with minor gaps |
+| 3 | Adequate. Meets minimum needs |
+| 2 | Weak. Needs significant workarounds |
+| 1 | Poor. Does not address this criterion |
 
 ---
 
-### Criteria Weights by Team Type
+### Criteria weights by team type
 
 | Criterion | Startup weight | Enterprise weight | EU-regulated weight |
 |---|---|---|---|
@@ -60,9 +59,9 @@ Then multiply by the weight column that matches your team type.
 
 ---
 
-### Scoring Sheet
+### Scoring sheet
 
-Replace `[Framework A]` and `[Framework B]` with the frameworks you're evaluating. Add columns as needed.
+Replace `[Framework A]` and `[Framework B]` with the frameworks you are scoring. Add columns as needed.
 
 | Criterion | Weight (your type) | [Framework A] score | [Framework A] weighted | [Framework B] score | [Framework B] weighted |
 |---|---|---|---|---|---|
@@ -78,9 +77,9 @@ Replace `[Framework A]` and `[Framework B]` with the frameworks you're evaluatin
 
 ---
 
-## Step 3 — Qualitative Assessment
+## Step 3: qualitative assessment
 
-Scores don't capture everything. Answer these for each framework before deciding.
+Scores miss things. Answer these for each framework before deciding.
 
 **Dealbreakers (any Yes = eliminate framework):**
 
@@ -103,17 +102,17 @@ Scores don't capture everything. Answer these for each framework before deciding
 
 ---
 
-## Step 4 — Pilot Evaluation
+## Step 4: pilot
 
-Before final decision, run a 1-week pilot with the top 1–2 candidates.
+Before the final decision, run a one-week pilot with the top one or two candidates.
 
 **Pilot protocol:**
 
-1. **Select a representative eval task** — choose something you'll actually need to run in production, not a toy example
-2. **Set a time budget** — max 4 hours to get a working eval running per framework
-3. **Run the eval** — document exactly what you ran, what the output was, and what it cost
-4. **Score the output** — does the result tell you something actionable?
-5. **Estimate ongoing cost** — extrapolate from pilot to your expected eval frequency and volume
+1. Pick a representative eval task, something you will actually run in production rather than a toy example
+2. Set a time budget of at most 4 hours per framework to get a working eval running
+3. Run the eval and write down exactly what you ran, what came out, and what it cost
+4. Score the output. Does the result tell you something you can act on?
+5. Estimate ongoing cost by extrapolating from the pilot to your expected eval frequency and volume
 
 **Pilot output template:**
 
@@ -131,17 +130,17 @@ Would we adopt this? Yes / No / Conditional on _______
 
 ---
 
-## Step 5 — Decision Output
+## Step 5: decision
 
 Fill in after scoring and pilot.
 
 **Selected framework(s):** _______
 
-**Rationale (2–3 sentences):** _______
+**Rationale (two or three sentences):** _______
 
-**What we're NOT using and why:** _______
+**What we are not using, and why:** _______
 
-**Known gaps we're accepting:** _______
+**Known gaps we are accepting:** _______
 
 **Review trigger:** Re-evaluate if any of the following occur:
 - [ ] Framework releases a major version with breaking changes
@@ -152,7 +151,7 @@ Fill in after scoring and pilot.
 
 ---
 
-## Reference: Framework Quick-Score Guide
+## Reference: framework quick-score guide
 
 Use this to calibrate your scores against the frameworks in this guide.
 
@@ -167,8 +166,8 @@ Use this to calibrate your scores against the frameworks in this guide.
 | Data residency (EU) | Langfuse | EU Cloud Frankfurt; self-host option |
 | Cost at scale | promptfoo | Deterministic assertions are free |
 
-→ [Full matrix](../comparisons/full-matrix.md) for the complete 6 × 10 comparison.
+The [full matrix](../comparisons/full-matrix.md) has the complete 6 by 10 comparison.
 
 ---
 
-*This template is intentionally framework-agnostic. It works for any eval framework, not just the six covered in this guide.*
+*This template is framework-agnostic on purpose. It works for any eval framework, not only the six covered in this guide.*
